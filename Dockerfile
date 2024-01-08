@@ -13,7 +13,7 @@ ENV TZ=Europe/Madrid
 RUN apt-get install tzdata -qqy
 
 # Add PHP repository
-RUN apt install software-properties-common -qqy\
+RUN apt install software-properties-common -qqy \
     && add-apt-repository ppa:ondrej/php -y \
     && apt update -qqy
 
