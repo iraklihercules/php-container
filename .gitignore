@@ -1,3 +1,5 @@
 .idea/*
-apps/*
-!apps/.gitkeep
+app/*
+!app/.gitkeep
+mysql/live_data/*
+!mysql/live_data/.gitkeep
